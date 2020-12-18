@@ -11,3 +11,6 @@ function cockroachSpeed(s) {
     // 1 km/h = 100 000 cm/3600 sec
     return Math.floor((s*100000) / 3600)
   }
+
+  //SHORTEST VERSION
+  const cockroachSpeed = s => Math.floor(s / 0.036);
