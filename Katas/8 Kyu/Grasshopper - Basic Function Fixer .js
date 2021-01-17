@@ -12,4 +12,4 @@ function addFive(num) {
 
   // MY SOLUTION
 
-  const addFive = (num) => num + 5
+  const addFive = num => num + 5
