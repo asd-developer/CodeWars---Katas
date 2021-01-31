@@ -13,9 +13,9 @@ function getGrade (s1, s2, s3) {
     // Code here
     const sum = (s1+s2+s3) / 3
     
-    if(90 <= sum || 100 <= sum) return 'A'
-    else if(80 <= sum || 90 < sum) return 'B'
-    else if(70 <= sum ||  80 < sum) return 'C'
-    else if(60 <= sum || 70 < sum) return 'D'
-    else if(0 <= sum || 60 < sum) return 'F'
+    if(90 <= sum && 100 <= sum) return 'A'
+    else if(80 <= sum && 90 < sum) return 'B'
+    else if(70 <= sum &&  80 < sum) return 'C'
+    else if(60 <= sum && 70 < sum) return 'D'
+    else if(0 <= sum && 60 < sum) return 'F'
   }
